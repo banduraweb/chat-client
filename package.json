@@ -1,5 +1,4 @@
 {
-  "homepage": "http://banduraweb.github.io/chat-client",
   "name": "client",
   "version": "0.1.0",
   "private": true,
@@ -22,7 +21,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && copy build/index.html build/404.html",
+    "build": "react-scripts build && cp build/index.html build/404.html",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "test": "react-scripts test",
